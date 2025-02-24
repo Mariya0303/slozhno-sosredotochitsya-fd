@@ -31,6 +31,7 @@
 }
 
 .header {
+  min-height: 100vh;
   margin-block-end: 80px;
   block-size: calc(100dvh - var(--global-padding) * 2);
   min-block-size: calc(668px - var(--global-padding) * 2);
@@ -183,6 +184,7 @@
 }
 
 .footer {
+  min-height: 100vh;
   block-size: calc(100dvh - var(--global-padding) * 2);
   min-block-size: calc(668px - var(--global-padding) * 2);
   display: flex;
