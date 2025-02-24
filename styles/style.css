@@ -98,6 +98,7 @@
 
 .card> :first-child {
   margin-block-end: 10px;
+
 }
 
 .card> :not(:first-child, :last-child) {
@@ -266,6 +267,7 @@
   .what>.wrapper {
     flex-direction: column;
   }
+
 }
 
 @media (max-width: 767px) {
