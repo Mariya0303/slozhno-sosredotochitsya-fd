@@ -1,11 +1,11 @@
 :root {
   --main-font: 'IBM Plex mono';
   --main-font-size: 1.125rem;
-  --main-line-height: 1.438rem;
+  --main-line-height: 1.463rem;
   --title-font-size: 1.125rem;
-  --title-line-height: 1.438rem;
+  --title-line-height: 1.463rem;
   --header-title-font-size: 9.813rem;
-  --header-title-line-height: 8.125rem;
+  --header-title-line-height: 8.096rem;
   --global-padding: 1.25rem;
 
   --background-color: #000028;
