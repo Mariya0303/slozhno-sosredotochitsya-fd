@@ -67,10 +67,7 @@
   margin-inline-start: calc(var(--global-padding) * -1);
   align-self: center;
   grid-area: title;
-  font-size: var(--header-title-font-size);
-  line-height: var(--header-title-line-height);
   text-shadow: 4px 4px 0 var(--shadow);
-  color: var(--header-title);
 }
 
 .header_subtitle {
@@ -130,10 +127,7 @@
 .what>.wrapper {
   display: flex;
   gap: 20px;
-
-}
-.what>.wrapper> * {
-flex: 1;
+  flex-wrap: wrap;
 }
 
 /* Как */
@@ -203,9 +197,12 @@ flex: 1;
 }
 
 .footer-title {
+  text-shadow: 2px 2px 0 var(--shadow);
+}
+
+.heading {
   font-size: var(--header-title-font-size);
   line-height: var(--header-title-line-height);
-  text-shadow: 2px 2px 0 var(--shadow);
   color: var(--header-title);
 }
 
@@ -255,7 +252,12 @@ flex: 1;
   box-shadow: 0 0 4px 2px var(--default-color);
 }
 
+@media (min-width: 1024px) {
+.what>.wrapper> * {
+flex: 19.625rem;
+}
 
+}
 @media (max-width: 1023px) {
   :root {
     --header-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
